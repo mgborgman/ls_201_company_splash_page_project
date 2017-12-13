@@ -1,0 +1,63 @@
+body {
+	background: url("./img/bg_body.gif") repeat;
+}
+
+header h1 {
+	/*background-color: green;*/
+	margin-top: 130px;
+	margin-bottom: 70px;
+}
+
+header {
+	text-align: center;
+}
+
+p,
+h2,
+h3 {
+	font-family: Avenir, sans-serif;
+}
+
+
+
+p {
+	font-size: 26px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+h3 + p {
+	padding-bottom: 60px;
+}
+
+h2 {
+	padding-top: 100px;
+	font-size: 48px;
+}
+
+h3 {
+	font-size: 32px;
+	color: #66cccc;
+}
+
+main {
+	background-color: #ffffff;
+	margin-left: 70px;
+	margin-right: 70px;
+	text-align: center;
+}
+
+footer {
+	background-color: #e7e7e7;
+	text-align: center;
+}
+
+footer ul {
+	margin: 0 auto;
+}
+
+footer ul li {
+	margin: 30px 60px;
+	display: inline-block;
+	text-decoration: none;
+}
